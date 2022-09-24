@@ -1,0 +1,76 @@
+body{
+    background-color: var(--color-bg2);
+}
+nav{
+    box-shadow: 0 0.1rem 1rem rgba(0, 0, 0, 0.3);
+    background-color: var(--color-white);
+}
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+}
+.toggle-nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.2rem;
+    padding: 0.5rem 1rem;
+}
+.burguer{
+    width: 1.5rem;
+    height: 0.2rem;
+    background-color: #000;
+}
+/* Links ocultos por default*/
+.links-nav{
+    height: 0;
+    overflow: hidden;
+    transition: var(--transition);
+}
+/*Mostrar links -> clase agregada en JS*/
+.show-links{
+    height: 12.7137rem;
+}
+.links-nav li {
+    transition: var(--transition);
+}
+.links-nav li:hover{
+    background-color: var(--color-bg1);
+    cursor: pointer;
+}
+.links-nav li a{
+    display: block;
+    padding: 1rem 0;
+    margin-left: 2rem;
+    transition: var(--transition);
+}
+.links-nav li a:hover{
+    margin-left: 3rem;
+}
+
+@media screen and (min-width: 800px) {
+    .toggle-nav{
+        display: none;
+    }
+    .container-nav{
+        display: flex;
+        justify-content: space-between;
+    }
+    .links-nav{
+        height: auto;
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+    }
+    .links-nav li{
+        transition: none;
+    }
+    .links-nav li:hover{
+        background-color: var(--color-white);
+        border-bottom:4px solid var(--color-bg1);
+    }
+    .links-nav li a{
+        margin: 0;
+        padding: 1rem 1rem;
+    }
+}

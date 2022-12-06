@@ -20,6 +20,7 @@
     --color-bg:#2f5b66;
     --color-bg1:#4d96a8;
     --color-bg2:#e4f8fd;
+    --shadow-set: 0px 0px 7px 0px #000;
 
     --container-width-lg:94%;
     --container-width-md:90%;

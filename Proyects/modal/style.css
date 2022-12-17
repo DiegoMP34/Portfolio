@@ -1,0 +1,43 @@
+.hero{
+    background-image: url("./bg-img.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner{
+    padding: 5rem 8rem;
+    background-color: var(--color-light);
+    display: grid;
+    place-items: center;
+}
+.modal-btn{
+    font-size: large;
+}
+.modal-overlay{
+    width: 30rem;
+    height: 30rem;
+    background-color: var(--color-bg2);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    display: none;
+}
+.modal-show{
+    display: block;
+}
+.modal-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.close-btn{
+    background-color: transparent;
+    font-size: large;
+}

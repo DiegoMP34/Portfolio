@@ -5,3 +5,4 @@ Proyecto 2 - contador
 Proyecto 3 - reviewCards
 Proyecto 4 - barra de navegacion
 Proyecto 5 - sideBar
+Proyecto 6 - modal

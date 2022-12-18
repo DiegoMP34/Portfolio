@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Source+Sans+Pro:wght@300&display=swap');
+.title{
+    margin-bottom: 5rem;
+}
+.title h2{
+    font-family: 'Courgette', cursive;
+    text-align: center;
+    color: var(--clr-gold);
+}
+.section-center{
+    max-width: var(--fixed-width);
+}
+.question{
+    background-color: var(--clr-white);
+    margin-bottom: 2rem;
+    padding: 1.5rem 1.3rem 1.5rem 1.3rem;
+}
+.question-title{
+    display: flex;
+    justify-content: space-between;
+}
+.question-title p{
+    margin-bottom: 0;
+    letter-spacing: var(--spacing);
+    font-size: 1.2rem;
+}
+.question-btn{
+    background-color: transparent;
+    border: none;
+    color: var(--clr-gold);
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: var(--transition);
+}
+.question-btn:hover{
+    transform: rotate(90deg);
+}
+.question-text{
+    margin-top: 1rem;
+    padding: 1.5rem 1rem 0rem 1rem;
+    font-size: 0.95rem;
+    border-top: 1px solid rgba(0,0,0,0.2);
+}
+/*botones y escoder texto*/
+.minus-icon{
+    display: none;
+} 
+.question-text{
+    display: none;
+} 
+.show-text .question-text{
+    display: block;
+}
+.show-text .minus-icon{
+    display: block;
+}
+.show-text .plus-icon{
+    display: none;
+}

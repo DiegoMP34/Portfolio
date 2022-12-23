@@ -7,3 +7,5 @@
 - Proyecto 5 - sideBar
 - Proyecto 6 - modal
 - Proyecto 7 - questions
+- Proyecto 8 - menu
+- Proyecto 9 - video y preloader

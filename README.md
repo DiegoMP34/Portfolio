@@ -9,3 +9,5 @@
 - Proyecto 7 - questions
 - Proyecto 8 - menu
 - Proyecto 9 - video y preloader
+- Proyecto 10 - scroll
+- Proyecto 11 - tabs

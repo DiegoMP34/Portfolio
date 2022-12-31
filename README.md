@@ -12,3 +12,4 @@
 - Proyecto 10 - scroll
 - Proyecto 11 - tabs
 - Proyecto 12 - Countdown
+- Proyecto 13 - lorem ipsum

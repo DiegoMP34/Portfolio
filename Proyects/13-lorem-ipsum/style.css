@@ -1,0 +1,30 @@
+.section-center{
+    max-width: 640px;
+    margin-top: 5rem;
+    text-align: center;
+}
+.section-center h3{
+    margin-bottom: 2rem;
+}
+label{
+    letter-spacing: var(--spacing);
+    font-size: 1.3rem;
+    font-family: var(--ff-secondary);
+    color: var(--clr-grey-2);
+}
+#amount{
+    width: 50px;
+    margin: 0 1.5rem 0 0.5rem;
+    padding: 0.3rem;
+    border: none;
+}
+.btn-submit{
+    background-color: var(--clr-grey-5);
+    color: var(--clr-white);
+    border: none;
+}
+.lorem-text{
+    margin-top: 3rem;
+    padding: 1rem;
+    border: 1px solid var(--clr-grey-2);
+}

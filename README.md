@@ -13,3 +13,4 @@
 - Proyecto 11 - tabs
 - Proyecto 12 - Countdown
 - Proyecto 13 - lorem ipsum
+- Proyecto 14 - slider

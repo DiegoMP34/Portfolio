@@ -1,5 +1,6 @@
-# Portfolio 
-### Aprendiendo dominio de DOM, logica de programacion y reforzando html y css.
+# Portfolio: Este repositorio contiene proyectos basicos con JS.
+
+### Carpeta Proyects: Aprendiendo dominio de DOM, logica de programacion y reforzando html y css.
 - Proyecto 1 - colores aleatorios
 - Proyecto 2 - contador
 - Proyecto 3 - reviewCards
@@ -14,3 +15,5 @@
 - Proyecto 12 - Countdown
 - Proyecto 13 - lorem ipsum
 - Proyecto 14 - slider
+
+### Carpeta GameProyectsWithJS: Aprendiendo logica con juegos.

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+</head>
+<style>
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    button{
+        margin-bottom: 1rem;
+        padding: 0.5rem 1rem;
+    }
+    #result{
+        font-size: 5rem;
+    }
+    span{
+        height: 2rem;
+    }
+</style>
+<body>
+    <h1>Pick a choice!!</h1>
+
+    <div>
+        <button class="choice-button" id="paper">Paper</button>
+        <button class="choice-button" id="rock">Rock</button>
+        <button class="choice-button" id="scissor">Scissors</button>
+    </div>
+    
+    <h2>🐯 User Choice</h2>
+    <span id="user-choice"></span>
+    <h2>🤖 Computer Choice</h2>
+    <span id="computer-choice"></span>
+    <h2><span id="result"></span></h2>
+
+    <script src="app.js"></script>
+</body>
+</html>

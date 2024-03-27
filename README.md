@@ -17,3 +17,4 @@
 - Proyecto 14 - slider
 
 ### Carpeta GameProyectsWithJS: Aprendiendo logica con juegos.
+- Rock-Paper-Scissors

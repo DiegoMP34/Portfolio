@@ -6,8 +6,8 @@ const choices = document.querySelectorAll('button')
 let userChoice
 let generatedChoice
 let result
-let winner = "You win!!! 😎"
-let lose = "You lost 🫠, try again"
+const winner = "You win!!! 😎"
+const lose = "You lost 🫠, try again"
 
 choices.forEach(choice => choice.addEventListener('click', (e) => {
     userChoice = e.target.id
@@ -36,14 +36,14 @@ function generateResult(user, computer) {
 function display(result, userChoice, computerChoice) {
     if (result === 1) {
         resultDisplay.style.color = "#FBBC05"
-        resultDisplay.innerHTML = "Es un empate 😅"
+        resultDisplay.innerText = "Es un empate 😅"
     }
     else if (result) {
         resultDisplay.style.color = "#34A853"
-        resultDisplay.innerHTML = winner
+        resultDisplay.innerText = winner
     }else{
         resultDisplay.style.color = "#EA4335"
-        resultDisplay.innerHTML = lose
+        resultDisplay.innerText = lose
     }
 
     userChoiceDisplay.innerText = userChoice
